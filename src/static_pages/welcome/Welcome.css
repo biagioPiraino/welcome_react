@@ -1,0 +1,10 @@
+.Welcome {
+    text-align: center;
+}
+
+.Welcome-header{
+    background-color: #222;
+    height: 85px;
+    padding: 10px;
+    color: white;    
+}

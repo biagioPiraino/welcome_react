@@ -1,16 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Welcome from './static_pages/welcome/Welcome'
-import UnorderedList from './static_pages/challenges/00_unordered_list/Unordered_list_00';
-import NavBar from './static_pages/challenges/01_navigation_bar/Navigation_bar_01';
+import ReactFacts from './static_pages/projects/react_facts/ReactFacts'
 import './index.css';
 
 ReactDOM.render(
-  <div>
-      <NavBar />
-      <Welcome />
-      <UnorderedList />
-  </div>,
+  <React.Fragment>
+    <ReactFacts />  
+  </React.Fragment>,
   document.getElementById('root')
 );
 

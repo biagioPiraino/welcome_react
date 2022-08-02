@@ -5,8 +5,7 @@ import './index.css';
 
 ReactDOM.render(
   <React.Fragment>
-    <CustomComponents />  
+    <CustomComponents />
   </React.Fragment>,
   document.getElementById('root')
 );
-

@@ -1,0 +1,15 @@
+.navbar-react-facts {
+  display: flex;
+  align-items:center;
+  margin-right: 20px;
+  background: #ffff
+}
+
+.react-facts-logo {
+  width:70px;
+  padding-right: -10px;
+}
+
+.navbar-header {
+  margin-right: auto;
+}

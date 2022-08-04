@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CustomComponents from './static_pages/challenges/02_custom_components/CustomComponents';
+import ReactFacts from './static_pages/projects/react_facts/ReactFacts';
 import './index.css';
 
 ReactDOM.render(
-  <React.Fragment>
-    <CustomComponents />
-  </React.Fragment>,
+    <ReactFacts />,
   document.getElementById('root')
 );

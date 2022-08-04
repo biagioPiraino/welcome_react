@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReactFacts from './static_pages/projects/react_facts/ReactFacts';
+import App from './static_pages/projects/digital-business-card/App';
 import './index.css';
 
 ReactDOM.render(
-    <ReactFacts />,
+    <App />,
   document.getElementById('root')
 );

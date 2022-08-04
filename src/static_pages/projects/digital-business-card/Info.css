@@ -1,0 +1,17 @@
+.info {
+   text-align: center;
+}
+
+.info--name, .info--role {
+   margin: 0px 0px 10px 0px;
+}
+
+.info--user-img {
+   height: 350px;
+   padding-block: 10px;
+}
+
+.info--role {
+   color: #F3BF99;
+}
+

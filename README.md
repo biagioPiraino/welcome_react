@@ -1,6 +1,6 @@
 ## Projects
 Project 00:
-![alt text](https://github.com/biagioPiraino/welcome_react/tree/main/src/project-00.png?raw=true)
+><img src="./src/project-00.png?raw=true" width="300">
 
 ## Documentation
 

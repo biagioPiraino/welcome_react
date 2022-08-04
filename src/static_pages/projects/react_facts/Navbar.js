@@ -8,7 +8,7 @@ class Navbar extends Component {
       <nav className="navbar-react-facts">
          <img src={logo} className="react-facts-logo" alt="logo"/>
          <h3 className="navbar-header">ReactFacts</h3>
-         <h4>React Course - Project 00</h4>
+         <h4 className="navbar-header-right">React Course - Project 00</h4>
       </nav>
     );
   }

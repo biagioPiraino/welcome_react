@@ -1,0 +1,19 @@
+.main-react-facts {
+   color: white;
+   margin-left: 20px;
+   padding-top  : 10px;
+   max-width: 100%;
+   background-image: url('../../../logo-2.svg');
+   background-position: right 75%;
+   background-repeat: no-repeat;
+}
+
+.main-list > li{
+   line-height: 19px;
+   padding-block: 10px;
+}
+
+.main-list > li::marker{
+   font-size: 1.4rem;
+   color: #61DAFB;
+}

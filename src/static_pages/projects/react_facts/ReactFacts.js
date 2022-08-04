@@ -7,6 +7,7 @@ class ReactFacts extends Component {
       return (
         <div>
           <Navbar />
+          <Main />
         </div>
       );
    }

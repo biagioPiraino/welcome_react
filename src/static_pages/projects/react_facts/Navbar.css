@@ -1,15 +1,22 @@
 .navbar-react-facts {
   display: flex;
   align-items:center;
-  margin-right: 20px;
-  background: #ffff
+  background: #21222A;
+  color: white;
+  position: sticky;
+  height: 100px;
 }
 
 .react-facts-logo {
   width:70px;
-  padding-right: -10px;
+  padding-right: -20px;
 }
 
 .navbar-header {
   margin-right: auto;
+  color: #61DAFB;
+}
+
+.navbar-header-right {
+  margin-right: 20px;
 }

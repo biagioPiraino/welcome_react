@@ -9,8 +9,10 @@ class Footer extends Component {
   render() {
     return (
       <footer className='footer'>
-         <ul className='footer--images'>
-         </ul>
+        <img src={tw} className="tw-logo" alt="logo"/>
+        <img src={ig} className="fb-logo" alt="logo"/>
+        <img src={fb} className="ig-logo" alt="logo"/>
+        <img src={gh} className="gh-logo" alt="logo"/>
       </footer>
     );
   }

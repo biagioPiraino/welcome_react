@@ -6,7 +6,7 @@ class Info extends Component {
   render() {
     return (
       <div className='info'>
-          <img src={profilepic} className="info--user-img" alt="logo"/>
+          <img src={profilepic} className="info--user-img" alt="img-profilepic"/>
           <h1 className="info--name">Biagio Piraino</h1>
           <h3 className="info--role">.Net Developer</h3>
           <small className="info--website">biagiopiraino.net</small>

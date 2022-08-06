@@ -1,0 +1,12 @@
+.interests {
+  margin-top: 25px;
+  display:flex;
+  flex-direction: column;
+  padding-left: 110px;
+  padding-right: 110px;
+  text-align: justify;
+}
+
+.interests--header, .interests--para {
+   margin: 0px 0px 10px 0px;
+}

@@ -1,3 +1,21 @@
 .hero {
-  
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+}
+
+.hero--img {
+   width: 80%;
+   height: auto;
+   align-self: center;
+}
+
+.hero--header {
+   font-size: 36px;
+   padding-top: 50px;
+   margin-bottom: 0px;
+}
+
+.hero--paragraph {
+   width: 320px;
 }

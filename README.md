@@ -1,6 +1,6 @@
 ## Projects
 Project 00:
-><img src="./src/project-00.png?raw=true" width="300">
+><img src="./src/part00/project-00.png?raw=true" width="300">
 
 ## Documentation
 

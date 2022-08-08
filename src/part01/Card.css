@@ -1,0 +1,19 @@
+.card {
+   font-size: 12px;
+   padding: 30px;
+}
+
+.faded {
+   color: #918E9B;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+.card--stats {
+   display: flex;
+   align-items: center;
+   gap: 3px;
+   margin-bottom: -5px;
+}

@@ -1,0 +1,31 @@
+.meme--form {
+   display: grid;
+   /* Grid template: rows attributes / columns attributes*/
+   grid-template: 40px 40px / 1fr 1fr;
+   gap: 20px;
+}
+
+.meme--main {
+   padding: 45px;
+}
+
+.form--button {
+   /* Grid column for the button that goes from the beginning (1) to end (-1) */
+   border: none;
+   color: white;
+   cursor: pointer;
+   border-radius: 5px;
+   grid-column: 1 / -1;
+   font-family: 'Poppins';
+   background: 
+      linear-gradient(
+         90.41deg, #711F8D 1.14%, #A818DA 100%);
+}
+
+.form--inputs {
+   text-indent: 5px;
+   border-radius: 5px;
+   font-family: 'Poppins';
+   border: 1px solid #D5D4D8;
+}
+

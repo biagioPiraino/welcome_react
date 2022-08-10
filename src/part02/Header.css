@@ -1,0 +1,25 @@
+.header--main {
+   display: flex;
+   align-items: center;
+   height: 65px;
+   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.header--header {
+   color: white;
+}
+
+.header--logo {
+   width: 45px;
+   padding-left: 30px;
+}
+
+#header.header--header {
+   padding-left: 10px;
+   margin-right: auto;
+}
+
+#sub-header.header--header {
+   size: 12px;
+   padding-right: 30px;
+}

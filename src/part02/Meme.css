@@ -3,7 +3,6 @@
    /* Grid template: rows attributes / columns attributes*/
    grid-template: 40px 40px/ 1fr 1fr;
    gap: 20px;
-   max-width: 1000px;
 }
 
 .meme--main {
@@ -30,7 +29,10 @@
    border: 1px solid #D5D4D8;
 }
 
-.meme--pic {
-   margin-top: 40px;
+.image--section {
+   padding: 50px;
 }
 
+.image--actual {
+   width: 100%;
+}

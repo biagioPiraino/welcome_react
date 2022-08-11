@@ -5,31 +5,27 @@ import './Meme.css';
 class Meme extends Component {
    constructor(props) {
       super(props);
-      this.state = {image: {}};
-      this.getRandomImage = this.getRandomImage.bind(this);
-      this.resizeHeight = this.resizeHeight.bind(this.resizeHeight);
-   }
-
-   resizeHeight() {
-      let originalRatio = 
-         this.state.image.width / this.state.image.height;
-      this.setState ({
+      this.state = 
+      {
          image: {
-            height: this.state.height,
-            width: 700 / originalRatio,
-            src : this.state.src
-         }  
-      }); 
+            src: '',
+            topText: '',
+            bottomText: ''
+         },
+
+         allMemeImages : memes.data.memes.filter(x => x.box_count === 2)
+      };
+      this.getRandomImage = this.getRandomImage.bind(this);
    }
 
    getRandomImage() {
-      let randomIndex = Math.round(Math.random() * 100);
-      let {url, width, height} = memes.data.memes[randomIndex];
+      let data = this.state.allMemeImages;
+      let randomIndex = Math.floor(Math.random() * data.length);
+      let {url} = data[randomIndex];
+      
       this.setState({
          image: {
-            height: height,
-            width: width,
-            src : url
+            src : url,
          }  
       });
    }
@@ -54,15 +50,15 @@ class Meme extends Component {
                      Get a new meme image
                </button>
             </div>
-            <div >
-               {this.state.image.src !== undefined &&
-                <img
-                  className='meme--pic'
-                  width={700}
-                  height={this.resizeHeight}
-                  src={this.state.image.src} 
-                  alt='meme'/>}
-            </div>
+            <section className='image--section'>
+               {
+                  this.state.image.src !== '' &&
+                  <img
+                     className='image--actual'
+                     src={this.state.image.src} 
+                     alt='meme'/>
+               }
+            </section>
          </main>   
       );
    }

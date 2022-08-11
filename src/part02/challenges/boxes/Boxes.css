@@ -1,0 +1,14 @@
+.box {
+   display: inline-block;
+   width: 100px;
+   height: 100px;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin-right: 5px;
+}
+
+.main {
+   display: grid;
+   grid-template: 105px 105px / 1fr 1fr 1fr ;
+   width: 300px;
+}

@@ -1,0 +1,22 @@
+.form--main {
+  display: grid;
+  max-width: 250px;
+  grid-row-gap: 15px;
+  padding: 15px;
+}
+
+.form--input {
+  font-family: 'Poppins';
+  font-size: 11px;
+  border-radius: 5px;
+  border:1px solid lightgrey;
+  height: 25px;
+  text-indent: 5px;
+}
+
+.form--input:focus{
+  outline: none !important;
+  border:0.5px solid aquamarine;
+  box-shadow: 0 0 5px #719ECE;
+  transition: 0.3s;
+}

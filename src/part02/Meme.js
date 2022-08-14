@@ -46,7 +46,7 @@ class Meme extends Component {
                />
                <button
                   onClick={this.getRandomImage} 
-                  className='form--button'>
+                  className='meme--form--button'>
                      Get a new meme image
                </button>
             </div>

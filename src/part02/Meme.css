@@ -9,7 +9,7 @@
    padding: 45px;
 }
 
-.form--button {
+.meme--form--button {
    /* Grid column for the button that goes from the beginning (1) to end (-1) */
    border: none;
    color: white;

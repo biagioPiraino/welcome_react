@@ -53,6 +53,7 @@ class App extends Component {
         <Form
           inputs={formInputs}
           onInputChange={this.handleFormInputChanges}
+          buttonLabel="Submit"
         />
       </div>
     );

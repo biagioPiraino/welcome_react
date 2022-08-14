@@ -23,8 +23,9 @@ class Form extends Component {
     );
 
     return (
-      <form className="form--main">
+      <form className='form--main'>
         {inputToDispay}
+        <button className='form--button'>{this.props.buttonLabel}</button>
       </form>
     )
   };

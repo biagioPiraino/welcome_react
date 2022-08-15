@@ -8,7 +8,7 @@ class Meme extends Component {
       this.state = 
       {
          image: {
-            src: '',
+            src: "https://i.imgflip.com/1bgw.jpg",
             topText: '',
             bottomText: ''
          },
@@ -16,6 +16,7 @@ class Meme extends Component {
          allMemeImages : memes.data.memes.filter(x => x.box_count === 2)
       };
       this.getRandomImage = this.getRandomImage.bind(this);
+      this.handleChange = this.handleChange.bind(this);
    }
 
    getRandomImage() {
@@ -25,7 +26,18 @@ class Meme extends Component {
       
       this.setState({
          image: {
+            ...this.state.image,
             src : url,
+         }  
+      });
+   }
+
+   handleChange(event) {
+      const {name, value} = event.target;
+      this.setState({
+         image: {
+            ...this.state.image,
+            [name] : value,
          }  
       });
    }
@@ -36,13 +48,19 @@ class Meme extends Component {
             <div className='meme--form'>
                <input 
                   type='text'
+                  name='topText'
                   className='form--inputs'
                   placeholder='Top text'
+                  onChange={this.handleChange}
+                  value={this.state.image.topText}
                />
                <input
                   type='text'
+                  name='bottomText'
                   className='form--inputs'
                   placeholder='Bottom text'
+                  onChange={this.handleChange}
+                  value={this.state.image.bottomText}
                />
                <button
                   onClick={this.getRandomImage} 
@@ -50,7 +68,7 @@ class Meme extends Component {
                      Get a new meme image
                </button>
             </div>
-            <section className='image--section'>
+            <div className='image--section'>
                {
                   this.state.image.src !== '' &&
                   <img
@@ -58,7 +76,9 @@ class Meme extends Component {
                      src={this.state.image.src} 
                      alt='meme'/>
                }
-            </section>
+               <h2 className='top--text'>{this.state.image.topText}</h2>
+               <h2 className='bottom--text'>{this.state.image.bottomText}</h2>
+            </div>
          </main>   
       );
    }

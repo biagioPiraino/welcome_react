@@ -5,6 +5,9 @@ Project 00:
 Project 01:
 ><img src="./src/part01/project-01.png?raw=true" width="300">
 
+Project 02:
+><img src="./src/part02/project-02.png?raw=true" width="300">
+
 ## Documentation
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
